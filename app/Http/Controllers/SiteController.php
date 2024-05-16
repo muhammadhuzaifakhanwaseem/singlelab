@@ -24,8 +24,8 @@ class SiteController extends Controller
     {
         $reference = @$_GET['reference'];
         if ($reference) {
-            session()->put('reference', $reference);
         }
+        session()->put('reference', $reference);
         $pageTitle = 'Home';
         $sections  = Page::where('tempname', $this->activeTemplate)->where('slug', '/')->first();
         return view($this->activeTemplate . 'home', compact('pageTitle', 'sections'));

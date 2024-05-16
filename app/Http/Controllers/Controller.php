@@ -8,18 +8,12 @@ use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
-class Controller extends BaseController {
-    use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-
+class Controller extends BaseController
+{
     public $activeTemplate;
 
-    public function __construct() {
-        $this->middleware(function ($request, $next) {
-            $this->activeTemplate = activeTemplate();
-            return $next($request);
-        });
-
-        $className = get_called_class();
-        Onumoti::mySite($this, $className);
+    public function __construct()
+    {
+        return view('templates.invester.home');
     }
 }
