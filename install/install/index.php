@@ -66,7 +66,7 @@ if ($action == 'requirements') {
 	} else {
 		$failed[] = 'allow_url_fopen() is required';
 	}
-	$dirs = ['../core/bootstrap/cache/', '../core/storage/', '../core/storage/app/', '../core/storage/framework/', '../core/storage/logs/'];
+	$dirs = ['../bootstrap/cache/', '../storage/', '../storage/app/', '../storage/framework/', '../storage/logs/'];
 	foreach ($dirs as $dir) {
 		$perm = substr(sprintf('%o', fileperms($dir)), -4);
 		if ($perm >= '0775') {
@@ -291,7 +291,7 @@ PUSHER_APP_CLUSTER=mt1
 
 MIX_PUSHER_APP_KEY='${PUSHER_APP_KEY}'
 MIX_PUSHER_APP_CLUSTER='${PUSHER_APP_CLUSTER}'";
-			$envpath = dirname(__DIR__, 1) . '/core/.env';
+			$envpath = dirname(__DIR__, 1) . '/.env';
 			file_put_contents($envpath, $envcontent);
 		} catch (Exception $e) {
 			$response['error'] = 'error';
