@@ -68,7 +68,7 @@
     @php
         $content = getContent('footer.content', true);
     @endphp
-    <!-- Footer Section -->
+    <!-- Footer Sections -->
     <footer class="py-4">
         <div class="container">
             <div class="footer-content text-center">
