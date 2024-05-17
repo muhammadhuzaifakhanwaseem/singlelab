@@ -4,7 +4,7 @@
 
 
     body {
-        background-position-y: 0!important;
+        background-position-y: 0 !important;
     }
 
     #fp-nav {
@@ -12,7 +12,7 @@
     }
 
     #social-icons,
-#logo {
+    #logo {
         position: fixed;
         width: 100%;
         left: 0;
@@ -25,14 +25,14 @@
     }
 
     .fp-slidesNav {
-        margin-left: -45%!important;
+        margin-left: -45% !important;
         left: 50%;
         bottom: 0;
         top: 55%;
     }
 
     .sidr-open .wrap,
-.wrap {
+    .wrap {
         width: 90%;
         text-align: center;
     }
@@ -48,7 +48,7 @@
     }
 
     .screenshots-wrapper,
-.section-image {
+    .section-image {
         left: auto;
         right: 89px;
         margin-left: inherit;
@@ -57,19 +57,21 @@
 
 @media (max-width: 870px) {
 
-    h1, h2, h3 {
+    h1,
+    h2,
+    h3 {
         font-size: 40px;
     }
 
     #hand,
     .screenshots-wrapper,
     .section-image {
-        opacity: 10%;
+        opacity: 15%;
         display: block;
     }
 
     .sidr-open .wrap .box,
-.box {
+    .box {
         width: 100%;
         text-align: center;
         font-size: 14px;
@@ -96,7 +98,8 @@
         margin: 25px auto;
     }
 
-    .sidr ul li a, .sidr ul li span {
+    .sidr ul li a,
+    .sidr ul li span {
         font-size: 11px;
         padding: 0 18px;
     }
@@ -130,7 +133,7 @@
     }
 
     .fp-slidesNav {
-        margin-left: -5%!important;
+        margin-left: -5% !important;
         left: 50%;
         bottom: 0;
         top: 55%;
@@ -169,14 +172,17 @@
 }
 
 @media (min-width: 320px) and (max-width: 640px) {
-  
 
-    h1, h2, h3 {
+
+    h1,
+    h2,
+    h3 {
         font-size: 26px;
         line-height: 1;
     }
 
-    .sidr-open .wrap .box, .box {
+    .sidr-open .wrap .box,
+    .box {
         width: 100%;
         text-align: center;
         font-size: 11px;
@@ -189,7 +195,7 @@
     }
 
     .playstore,
-.appstore {
+    .appstore {
         margin-top: -4px;
     }
 
@@ -232,7 +238,7 @@
     }
 
     #main-nav:hover span {
-        color: inherit!important;
+        color: inherit !important;
     }
 
     .sidr ul li {
@@ -277,7 +283,8 @@
         display: none;
     }
 
-    #contact-form textarea, #contact-form input {
+    #contact-form textarea,
+    #contact-form input {
         font-size: 11px;
         margin-right: 3%;
         padding: 5px;

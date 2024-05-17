@@ -47,9 +47,9 @@
 
 
         <!-- SECTION HOME -->
-        <div class="section " id="section0">
+        <div class="section" id="section0">
             <div class="wrap">
-                <img src="{{ asset('assets/tix/images/logo.png') }}" alt="">
+                {{-- <img style="width: 100%;" src="{{ asset('assets/tix/images/logo.png') }}" alt=""> --}}
                 <div class="box">
                     <!-- SECTION HOME CONTENT -->
                     <h1>
@@ -68,7 +68,7 @@
         <!-- END SECTION HOME -->
 
         <!-- SECTION FEATURES -->
-        <div class="section " id="section1">
+        <div class="section" id="section1">
             <div class="wrap">
                 <div class="box">
                     <!-- SECTION FEATURES CONTENT -->
@@ -78,6 +78,8 @@
                         believe in democratizing access to wealth-building opportunities, regardless of geographical
                         location or financial background.
                     </p>
+                    <a href="#Download" class="simple-button"><span class="icon flaticon-download7"></span>Download
+                        App</a>
                 </div>
             </div>
         </div>
@@ -136,6 +138,68 @@
                                     recognizing that collective collaboration drives collective success.</p>
                             </section>
                         </div>
+                        <a href="#Download" class="simple-button"><span class="icon flaticon-download7"></span>Download
+                            App</a>
+                        <!-- END TABS CONTENT -->
+
+                        <!-- END SECTION ABOUT -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END SECTION ABOUT -->
+
+        <!-- SECTION ABOUT -->
+        <div class="section" id="section3">
+            <div class="wrap">
+                <div class="box">
+                    <!-- SECTION ABOUT CONTENT -->
+                    <h2>How It <strong> Works</strong></h2>
+                    <div class="tabs tabs-style-linemove">
+                        <!-- TABS LINKS -->
+                        <nav>
+                            <ul>
+                                <li><a href="#section2-linemove-1"><span class="icon flaticon-lightbulb"></span><span>
+                                            Select Plan</span></a>
+                                </li>
+                                <li><a href="#section2-linemove-2"><span class="icon flaticon-adjust3"></span><span>
+                                            Investment</span></a>
+                                </li>
+                                <li><a href="#section2-linemove-3"><span class="icon flaticon-drawer1"></span><span>
+                                            Trading</span></a>
+                                </li>
+                                <li><a href="#section2-linemove-4"><span class="icon flaticon-drawer1"></span><span>
+                                            Distribution</span></a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- END TABS LINKS -->
+
+                        <!-- TABS CONTENT -->
+                        <div class="content-wrap">
+                            <!-- TAB 1 -->
+                            <section id="section2-linemove-1">
+                                <p> Users browse through our range of investment plans, each tailored to suit different
+                                    risk appetites and investment goals.</p>
+                            </section>
+                            <section id="section2-linemove-2">
+                                <p>Users invest their funds into our plans.</p>
+                            </section>
+
+                            <!-- TAB 2 -->
+                            <section id="section2-linemove-3">
+                                <p>Our experienced traders utilize their expertise to trade the invested
+                                    funds across various markets.</p>
+                            </section>
+
+                            <!-- TAB 3 -->
+                            <section id="section2-linemove-4">
+                                <p>Any profits generated from successful trades are distributed to the
+                                    investors after deducting our nominal fees.</p>
+                            </section>
+                            <a href="#Download" class="simple-button"><span class="icon flaticon-download7"></span>Download
+                                App</a>
+                        </div>
                         <!-- END TABS CONTENT -->
 
                         <!-- END SECTION ABOUT -->
@@ -152,7 +216,6 @@
                     <div class="box">
                         <!-- SECTION CLIENTS CONTENT -->
                         <h2><strong>Clients</strong> feedbacks</h2>
-
                         <!-- CLIENT FEEDBACK 1 -->
                         <div class="slide" data-anchor="slide1">
                             <p>"I've been investing with Tix for over a year now, and I couldn't be happier with the
@@ -168,7 +231,6 @@
                                         class="icon flaticon-fivepointed"></span> </span>
                             </p>
                         </div>
-
                         <!-- CLIENT FEEDBACK 2 -->
                         <div class="slide" data-anchor="slide2">
                             <p>"As a CFO, I understand the importance of prudent investment strategies. Tix has been
@@ -200,6 +262,9 @@
                             </p>
                         </div>
                         <!-- END SECTION CLIENTS -->
+                        <a href="#Download" class="simple-button"><span
+                                class="icon flaticon-download7"></span>Download
+                            App</a>
                     </div>
                 </div>
             </div>
